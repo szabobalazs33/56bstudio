@@ -1,0 +1,50 @@
+body {
+  margin: 6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://images.squarespace-cdn.com/content/54d696e5e4b05ca7b54cff5c/bfe0e5b2-a545-4527-964c-0612ae5b4654/Ableton+Live+12+Announced.jpg?format=1500w&content-type=image%2Fjpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+.content-section {
+  display: none; /* elrejtjük az összes szekciót */
+  background-color: transparent;
+  padding: 100px 0;
+  border-bottom: 0px solid #ddd;
+}
+
+#bemutatkozas {
+  display: block; /* alapból csak a bemutatkozás látszik */
+}
+
+nav.navbar {
+  backdrop-filter: blur(10px);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 5px 0;  /* kisebb padding */
+  position: fixed;   /* fixáljuk az oldal aljára */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+  z-index: 1000;
+}
